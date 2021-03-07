@@ -1,0 +1,98 @@
+.dangnhap {
+  text-align: center;
+}
+.login__form {
+  border: 1px solid #80808070;
+  width: 400px;
+  margin: 100px auto;
+  padding: 10px 50px 70px 50px;
+  box-shadow: 0 0 5px;
+}
+.login__form-title {
+  font-size: 25px;
+  margin: 0 60px 20px 60px;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+button.btn.btn-success {
+  width: 100%;
+}
+
+.login__form-close {
+  text-align: end;
+  color: gray;
+}
+.login__form-close i {
+  cursor: pointer;
+}
+.login__form-forgot {
+  position: relative;
+  top: 70px;
+  text-align: center;
+  background-color: #80808047;
+  padding: 12px;
+  width: 135%;
+  border-radius: 4px;
+  transform: translateX(-13%);
+}
+
+a {
+  color: #333;
+}
+.warningusr {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.warningpass {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+
+form.forgot__form {
+  border: 1px solid #80808070;
+  width: 400px;
+  margin: 100px auto;
+  padding: 10px 50px 70px 50px;
+  box-shadow: 0 0 5px;
+}
+.forgot__form-close {
+  text-align: end;
+  color: gray;
+}
+label.forgot__form-title {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+}
+.warningopass {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.warningnpass {
+  color: red;
+  margin-bottom: 10px;
+}
+.forgot {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.forgot__form {
+  height: 342px;
+}

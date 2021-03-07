@@ -1,0 +1,19 @@
+.ul,
+.span,
+.input {
+  text-align: center;
+  margin: 20px 0;
+}
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+li {
+  display: inline;
+}
+.chan {
+  background-color: green;
+}
+.le {
+  background-color: red;
+}

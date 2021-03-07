@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- End -->
+    <!-- Link css -->
+    <link rel="stylesheet" href="login.css">
+    <!-- End -->
+    <!-- Link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- End -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="dangnhap">
+        <button class="btn btn-outline-primary" id="click">Đăng nhập hệ thống</button>
+    </div>
+    <div class="login hidden" id="form__login">
+        <form class="login__form">
+            <div class="login__form-close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <label class="login__form-title">Member Login</label>
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" placeholder="Username" onchange="change()">
+            </div>
+            <div class="warningusr "></div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="password" placeholder="Password" onchange="change()">
+            </div>
+            <div class="warningpass "></div>
+            <button  type="button" class="btn btn-success" id="login">Login</button>
+            <div class="login__form-forgot">
+                <a href="#" class="cl">Forgot Password?</a>
+            </div>
+        </form>
+    </div>
+    <div class="forgot hidden">
+        <form class="forgot__form">
+            <div class="forgot__form-close">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </div>
+            <label class="forgot__form-title">Forgot password</label>
+            <div class="form-group">
+                <input type="password" class="form-control" id="oldpass" placeholder="OldPassWord" onchange="ochange()">
+            </div>
+            <div class="warningopass "></div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="newpass" placeholder="NewPassword" onchange="ochange()">
+            </div>
+            <div class="warningnpass "></div>
+            <button type="button" class="btn btn-success" id="save">Save</button>
+        </form>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
